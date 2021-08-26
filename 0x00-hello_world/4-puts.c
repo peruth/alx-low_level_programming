@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - prints a string using puts
+ * followed by a new line
+ * Return: Always 0 on (success)
+ */
+
 int main(void)
 {
-/*C Program will print using put followed by a new line and the program will end with a 0 value*/
 puts("Programming is like building a multilingual puzzle\n");
 return (0);
 }
