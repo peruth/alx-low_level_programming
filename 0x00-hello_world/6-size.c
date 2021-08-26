@@ -1,8 +1,13 @@
 #include <stdio.h>
-/*using sizeof*/
+
+/**
+ * main - sizeof prints size of various types
+ * followed by a new line
+ * Return: Always 0 on (success)
+ */
+
 int main(void)
 {
-/*sizeof evaluates the size of various types*/
 printf("size of a char: %ld byte(s)\n", sizeof(char));
 printf("size of an int: %ld byte(s)\n", sizeof(int));
 printf("size of a long int: %ld byte(s)\n", sizeof(long int));
