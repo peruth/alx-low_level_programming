@@ -10,9 +10,9 @@ int main(void)
 {
 int a, b;
 
-for (a = 0; a < 2; a++)
+for (a = 0; a < 10; a++)
 {
-for (b = 0; b < 2; b++)
+for (b = 1; b < 10; b++)
 {
 putchar(a);
 putchar(b);

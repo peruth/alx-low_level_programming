@@ -19,7 +19,7 @@ for (c = 0; c < 10; c++)
 putchar(a);
 putchar(b);
 putchar(c);
-for (a != b && a != c && b != c)
+ for (a != b && a != c || b != c)
 {
 putchar(',');
 putchar(' ');
