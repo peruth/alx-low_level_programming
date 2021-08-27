@@ -10,19 +10,22 @@ int main(void)
 {
 int a, b, c;
 
-for (a = 0; a < 10; a++)
+for (a = 48; a < 58; a++)
 {
-for (b = 0; b < 10; b++)
+for (b = 49; b < 58; b++)
 {
-for (c = 0; c < 10; c++)
+for (c = 50; c < 58; c++)
+{
+if (c > b && b > a)
 {
 putchar(a);
 putchar(b);
 putchar(c);
- for (a != b && a != c || b != c)
+if (a != 55 || b != 56)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
