@@ -12,7 +12,7 @@ int counter, overflow;
 unsigned long a = 1;
 unsigned long b = 1;
 unsigned long sum = 0;
-long a_head, a_tail, b_head, b_tail, sum_tail;
+long a_head, a_tail, b_head, b_tail, sum_head, sum_tail;
 
 printf("1");
 
