@@ -1,5 +1,4 @@
-#include <stdio.h>
-void print_alphabet_x10(void);
+#include "main.h"
 
 /**
  * main - prints 0 times the alphabet in lowercase
@@ -7,12 +6,10 @@ void print_alphabet_x10(void);
  * Return: Always 0 on (success)
  */
 
-int main(void)
+void print_alphabet_x10(void);
 {
 char ch;
-int n, i;
-
-n = 10;
+int i;
 
 for (i = 0; i < 10; i++)
 {
@@ -22,5 +19,4 @@ putchar(ch);
 }
 }
 putchar('\n');
-return (0);
 }
