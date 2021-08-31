@@ -2,15 +2,22 @@
 
 /**
  * main - prints Holberton
- * Followed cy a newline
+ * Followed by a newline
  * Return: Always 0 on (success)
  */
 
 int main(void)
 {
-char ch = "Holberton";
+_putchar('H');
+_putchar('o');
+_putchar('l');
+_putchar('b');
+_putchar('e');
+_putchar('r');
+_putchar('t');
+_putchar('o');
+_putchar('n');
+_putchar('\n');
 
-putchar(ch);
-putchar('\n');
 return (0);
 }
