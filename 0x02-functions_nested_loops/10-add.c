@@ -1,29 +1,17 @@
 #include <stdio.h>
 
 /**
- * integer_add carries out the addition of two integers
- * integers x and y are declared and later given values
- * Return the values
+ * add - carries out the addition of two integers
+ * @x: int to be added to y
+ * @y: int y to be added to a
+ * Return: sum of a and b
  */
 
-int integer_add(int x, int y)
+int add(int x, int y)
 {
-add result;
-result = x + y;
-return result;
-}
+int z;
 
-/**
- * main - adds two integers
- * integer_add provides the result
- * Return: Always 0 on (success)
- */
+z = x + y;
 
-int main(void)
-{
-int sum;
-
-sum = integer_add(89, 9)
-printf("The sum of  89 and 9 is:\n", sum);
-return (0);
+return (z);
 }
