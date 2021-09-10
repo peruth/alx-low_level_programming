@@ -1,8 +1,5 @@
 #include <stdio.h>
-/**
- * main - prints a magic number
- * Return: 0 on success
- */
+
 int main(void)
 {
 int n;
